@@ -1,0 +1,16 @@
+.headName{
+    color: #585858;
+}
+.headName:hover{
+    cursor: pointer;
+}
+.headType{
+    width: 50%;
+    margin-left: auto;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.headType > p:hover {
+    cursor: pointer;
+}
