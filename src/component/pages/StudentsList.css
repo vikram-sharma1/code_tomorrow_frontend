@@ -1,0 +1,27 @@
+tr, td, th{
+    border: 1px solid black;
+    /* width: 50%; */
+    height: 30px;
+
+    text-align: center;
+}
+
+.colOne{
+    width: 30%;
+    height: 30px;
+}
+.colTwo{
+    width: 70%;
+    height: 30px;
+}
+
+.headingName{
+    text-align: center;
+}
+
+
+table{
+    /* border: 1px solid black; */
+    width: 50%;
+    margin: auto;
+}

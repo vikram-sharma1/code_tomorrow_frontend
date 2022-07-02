@@ -1,0 +1,26 @@
+.MainBox{
+    text-align: center;
+}
+.addBox{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 200px;
+    margin: auto;
+}
+.inputBox{
+    width: 80%;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.btnSubmit{
+    margin-top: 20px;
+    width: 40%;
+    height: 40px;
+
+}
+
+.studentName{
+
+    font-size: 22px;
+}
