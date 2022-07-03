@@ -1,28 +1,19 @@
 {
-    "students":[
-        {
-            "label" : "one",
-            "id" : 1
-        },
-        {
-            "label" : "two",
-            "id" : 2
-        },
-        {
-            "label" : "three",
-            "id" : 3
-        },
-        {
-            "label" : "four",
-            "id" : 4
-        },
-        {
-            "label" : "five",
-            "id" : 5
-        },
-        {
-            "label" : "six",
-            "id" : 6
-        }
-    ]
+  "students": [
+    {
+      "name": "Vikram Sharma",
+      "rollno": "25",
+      "date": "2022-07-01",
+      "attendence": "true",
+      "id": 1
+    },
+    {
+      "name": "Rohit",
+      "rollno": "28",
+      "date": "2022-07-15",
+      "attendence": "false",
+      "id": 2
+    }
+  ],
+  "studentName":[]
 }

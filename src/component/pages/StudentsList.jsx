@@ -39,14 +39,19 @@ const StudentsList = () => {
           <tr>
             <th>Roll No</th>
             <th>Student Name</th>
+            <th>Attendence</th>
           </tr>
         {studentsList.map((data)=>{
           return(
             <tr key={data.id}>
-              <td className='colOne'>{data.id}</td>
-              <td className='colTwo'>{data.label}</td>
+              <td className='colOne'>{data.rollno}</td>
+              <td className='colTwo'>{data.name}</td>
+              
+              {data.attendence=='true' ? <td className='colTwo'>Present</td> : <td className='colTwo'>Absent</td>}
+                
+              
             </tr>
-          )
+          ) 
 
           })}
         </tbody>
